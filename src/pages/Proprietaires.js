@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-export default class Proprietaire extends React.Component {
+export default class Proprietaires extends React.Component {
   render() {
     return (
       <Layout>
