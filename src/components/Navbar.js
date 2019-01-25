@@ -37,6 +37,20 @@ const Navbar = class extends React.Component {
             />
           </Link>
         </header>
+        <nav id="navMenu" className="grid">
+            <Link className="navbar-item" to="/">
+              Accueil
+            </Link>
+            <Link className="navbar-item" to="/Proprietaires">
+              Propriétaire
+            </Link>
+            <Link className="navbar-item" to="/Appartements">
+              Appartement à la carte
+            </Link>
+            <Link className="navbar-item" to="/Partenaires">
+              Partenaires
+            </Link>
+        </nav>
         <nav
           className="navbar is-transparent"
           role="navigation"
@@ -56,7 +70,7 @@ const Navbar = class extends React.Component {
                 className="navbar-start has-text-centered"
                 style={{ marginRight: '0' }}
               >
-                <Link className="navbar-item" to="/">
+                {/*       <Link className="navbar-item" to="/">
                   Accueil
                 </Link>
                 <Link className="navbar-item" to="/Proprietaires">
@@ -67,7 +81,7 @@ const Navbar = class extends React.Component {
                 </Link>
                 <Link className="navbar-item" to="/Partenaires">
                   Partenaires
-                </Link>
+                </Link> */}
                 {/*         <Link className="navbar-item" to="/about">
           About
         </Link>
