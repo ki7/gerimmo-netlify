@@ -22,7 +22,7 @@ export default class IndexPage extends React.Component {
         <div className="container">
       
 
-          <h2 className="heading"> Qui est GERIMMO LOCATION ?</h2>
+          <h1 className="heading"> Qui est GERIMMO LOCATION ?</h1>
           <p>
             Gerimmo Location est une jeune entreprise et  agence spécialisée dans la location d’appartement relatif aux séjours de courtes durées.
           </p>

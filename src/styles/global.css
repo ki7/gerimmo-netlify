@@ -41,12 +41,26 @@
   position: relative;
 }
 
+.hero--investisseurs {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/img/prise_en_charge_votre_bien.png');
+}
+
 .navbar.navbar {
   display: none;
 }
 
-h2.heading {
+.heading.heading {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 20px;
+}
+
+h2.heading {
+  font-size: 16px;
+}
+
+.heading > span {
+  text-transform: capitalize;
+  font-weight: normal;
 }
